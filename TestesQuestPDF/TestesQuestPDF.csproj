@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\barcode.png" />
+    <None Remove="assets\ethnocentric.otf" />
+    <None Remove="assets\Inter-Regular.ttf" />
+    <None Remove="assets\logo-easytech.png" />
+    <None Remove="assets\logo-insol-pb.svg" />
+    <None Remove="assets\logo-insol.png" />
+    <None Remove="assets\logo-insol.svg" />
+    <None Remove="assets\logo-sevisa-pb.png" />
+    <None Remove="assets\logo-sevisa.svg" />
+    <None Remove="assets\qrcode.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets\barcode.png" />
+    <EmbeddedResource Include="assets\ethnocentric.otf" />
+    <EmbeddedResource Include="assets\Inter-Regular.ttf" />
+    <EmbeddedResource Include="assets\logo-easytech.png" />
+    <EmbeddedResource Include="assets\logo-insol-pb.svg" />
+    <EmbeddedResource Include="assets\logo-insol.svg" />
+    <EmbeddedResource Include="assets\logo-sevisa-pb.png" />
+    <EmbeddedResource Include="assets\logo-sevisa.svg" />
+    <EmbeddedResource Include="assets\qrcode.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HTMLToQPDF" Version="1.2.0" />
+    <PackageReference Include="QuestPDF" Version="2025.1.6" />
+    <PackageReference Include="System.Drawing.Common" Version="9.0.3" />
+    <PackageReference Include="ZXing.Net" Version="0.16.10" />
+  </ItemGroup>
+
+</Project>
