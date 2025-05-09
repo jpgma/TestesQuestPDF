@@ -46,7 +46,7 @@ var etiqueta = new EtiquetaPesagemSevisa()
     Email = "sevisaalimentos@yahoo.com",
     WhatsApp = "(94) 3352-0043",
     DataFabricacao = DateTime.Now,
-    PesoLiquido = "XX kg",
+    PesoLiquido = "12.123",
     NumeroAgenciaDefesa = 90
 };
 
